@@ -36,7 +36,8 @@
         "chart.js": "2.9.4",
         "datatables.net-bs4": "1.10.22",
         "jquery": "3.5.1",
-        "jquery.easing": "^1.4.1"
+        "jquery.easing": "^1.4.1",
+        "semver": "^7.3.4"
     },
     "devDependencies": {
         "browser-sync": "2.26.13",
@@ -49,6 +50,7 @@
         "gulp-rename": "2.0.0",
         "gulp-sass": "4.1.0",
         "gulp-uglify": "3.0.2",
+        "gulp-util": "^3.0.8",
         "merge-stream": "2.0.0"
     }
 }
