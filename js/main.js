@@ -20,10 +20,10 @@ function loadComponents() {
         console.log(loader);
         type = loader.data('type');
         if (type) {
-            component = "/components/" + type + "/" + loader.data('component') + ".html";
+            component = "/hiroko/components/" + type + "/" + loader.data('component') + ".html";
         } else {
             // console.log('entrei aqui');
-            component = "/components/" + loader.data('component') + ".html";
+            component = "/hiroko/components/" + loader.data('component') + ".html";
             // console.log(component);
         }
         loader.load(component);
